@@ -6,7 +6,6 @@ const user = {
     followers: '',
     following: '',
     repositories: [],
-    forks: '',
     events: '',
     setInfo(gitHubUser) {
         this.avatarUrl = gitHubUser.avatar_url
